@@ -23,9 +23,8 @@ Then, when sending marketing emails, you may specify that the _marketing_ pool b
 
 {% codeblock lang:json %}
 {
-  "ip_pool": [
+  "ip_pool": 
     "marketing"
-  ]
 }
 {% endcodeblock %}
 
