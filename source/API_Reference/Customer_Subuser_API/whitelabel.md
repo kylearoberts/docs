@@ -8,9 +8,13 @@ navigation:
 
 All Whitelabel records that are successfully created on the parent account are available here. These can be attached to one or more subusers. <code>mail_domain</code> and <code>url_domain</code> should be the same in almost all cases.
 
-{% info %}
-Whitelabel records cannot be created via API, only via the web UI. The API is used to create and modify subuser-whitelabel relationships.
-{% endinfo %}
+{% warning %}
+If your whitelabel was created after 07/06/2015 you will want to use Web API v3 to associate a whitelabel with a subusers.
+<ul>
+  <li>[Domain Whitelabel](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/domains.html)</li>
+  <li>[Link Whitelabel](https://sendgrid.com/docs/API_Reference/Web_API_v3/Whitelabel/links.html)</li>
+</ul>
+{% endwarning %}
 
 {% warning %}
 Take note that IPs have records in line with Whitelabel records, but are not assigned with these commands. Subusers can be assigned to a mismatched whitelabel and IP, but should not be. There is no call at this time to note the whitelabeled rDNS record on the IP, DNS commands can be used to query these public records.
