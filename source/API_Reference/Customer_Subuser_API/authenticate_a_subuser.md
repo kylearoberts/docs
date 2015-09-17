@@ -8,6 +8,7 @@ navigation:
 
 Authenticate a subuser on your website before displaying their account information so that you can have users manage their SendGrid account on your website.
 
+{% warning %} This API call will not work unless your subuser has [Website Access Enabled]({{root_url}}/API_Reference/Customer_Subuser_API/subusers.html#-Enable-Website-Access-To-A-Subuser).{% endwarning %}
 
 {% parameters auth %}
  {% parameter 'user' 'Yes' 'Subuser must be under your account' 'Username of subuser being authenticated' %}
