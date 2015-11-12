@@ -38,7 +38,7 @@ The following steps are required to begin parsing email:
 The following parameters will be included in the POST to your callback URL.
 
 {% info %}
-The request that will be sent to the HTTP endpoint will be encoded as multipart/form-data.
+The request that will be sent to the HTTP endpoint will be encoded as application/x-www-form-urlencoded.
 {% endinfo %}
 
 <table class="table table-bordered table-striped">
