@@ -98,6 +98,16 @@ sendgrid_smtp:
   hosts_require_tls = smtp.sendgrid.net
 {% endcodeblock %}
 
+{% warning %} If you are seen "5.5.1 Authentication Required" errors you will want to use the settings below. {% endwarning %}
+
+{% codeblock lang:bash %}
+sendgrid_smtp:
+  driver = smtp
+  hosts = smtp.sendgrid.net
+  hosts_require_auth = <; $host_address
+  hosts_require_tls = <; $host_address
+{% endcodeblock %}
+
 Once you have completed and saved all changes to Exim's configuration files, you will need to restart it to activate those changes:
 
 {% codeblock lang:bash %}
