@@ -41,7 +41,7 @@ For a full helper reference, see the [Handlebars reference](#handlebars-referenc
 
 ## Use cases
 
-The following use case examples come from the [dynamic-template section of our email templates GitHub repo](https://github.com/sendgrid/email-templates/tree/master/dynamic-templates). Each example links to files you can explore on GitHub. You can also work with these templates by uploading them using the [Code Editor]({{root_url}}/ui/sending-email/editor/#the-code-editor) available in [Dynamic Transactional Templates](https://mc.sendgrid.com/dynamic-templates) and the [Marketing Campaigns Design Library](https://mc.sendgrid.com/design-library/your-designs).
+The following use case examples come from the [dynamic-template section of our email templates GitHub repo](https://github.com/sendgrid/email-templates/tree/master/dynamic-templates). Each example links to files you can explore on GitHub. You can also work with these templates by uploading them using the [Code Editor]({{root_url}}/ui/sending-email/editor/#the-code-editor) available in [Dynamic Transactional Templates](https://mc.sendgrid.com/dynamic-templates) and the [Marketing Campaigns Design Library](https://mc.sendgrid.com/design-library/your-designs)
 
 The following use cases are listed with the Handlebars helpers used to build them.
 
